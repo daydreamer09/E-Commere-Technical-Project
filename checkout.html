@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>checkout</title>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Resources/styles.css">
+    <link rel="stylesheet" href="./Resources/checkout.css">
+    <link rel="stylesheet" href="./Resources/product.css">
+</head>
+<body>
+    <section id="home-page" class="content-page">
+        <nav>
+            <a href="index.html"><h2>Furniture <br> Shop <div id="shape"></div></h2></a>
+            <ul>
+                <li> <a href="index.html">HOME</a> </li>
+                <li> <a href="customer.html">PRODUCT</a> </li>
+                <li> <a href="checkout.html">CART</a> </li>
+                <li>  <a href="signup.html">SIGNUP</a> </li>
+            </ul>
+        </nav>
+        <section class="checkout">
+            <h2>Shopping Cart</h2>
+            <section class="checkout-content">
+                <div class="checkout-left">
+                    <table class="cart">
+                            <tr>
+                                <th>Name</th>
+                                <th>Price</th>
+                                <th>Quantity</th>
+                            </tr>
+                            <tr id="chair">
+                                <td>Modern Chair</td>
+                                <td>&#8358 <p id="price-chair"> 120000</p></td>
+                                <td id="quantity-chair"> 1 </td>
+                                <td><button id="remove-chair"> remove </button></td>
+                            </tr>
+                            <tr id="bulb">
+                                <td>Bulb</td>
+                                <td>&#8358 <p id="price-bulb">8000</p> </td>
+                                <td id="quantity-bulb"> 1 </td>
+                                <td><button id="remove-bulb"> remove </button></td>
+                            </tr>
+                            <tr id="sofa">
+                                <td>Sofa</td>
+                                <td>&#8358 <p id="price-sofa"> 250000</p></td>
+                                <td id="quantity-sofa"> 1 </td>
+                                <td><button id="remove-sofa"> remove </button></td>
+                            </tr>
+                            <tr id="pot-plant">
+                                <td>Pot Plant</td>
+                                <td>&#8358 <p id="price-plant"> 10000</p></td>
+                                <td id="quantity-plant"> 1 </td>
+                                <td> <a href="proceed.html"> <button id="remove-plant"> remove </button></a></td>
+                            </tr>
+                    </table>
+                    
+                </div>
+                <div class="checkout-right">
+                    <table class="cart-total">
+                        <th>Cart Total</th>
+                        <tr>
+                            <td>Delivery:</td>
+                            <td>Free</td>
+                        </tr>
+                        <tr>
+                            <td>Total:</td>
+                            <td>&#8358 <p id="total-cart">0</p> </td>
+                        </tr>
+                    </table>
+                    <form action="#">
+                        <input type="button" class="checkout-button" value="Checkout" id="checkout-action">
+                        <input type="button" class="proceed-button" value="Proceed" id="proceed-action">
+                    </form>
+                </div>
+            </section>
+
+        </section>
+    </section>
+    <footer>
+        <article class="discount">
+            <H2>Subscribe for a <span>25% Discount</span> </H2>
+            <p>Nulla ac convallis lorem, eget euismod nisl.
+               Donec in libero sit amet mi vulputate consectetur.
+               Donec auctor interdum purus, ac finibus massa bibendum nec.</p>
+        </article>
+        <section class="subscribe">
+            <form action="#">
+                <input type="email" class="sub" name="mail" id="box" placeholder="Your E-mail">
+                <input type="button" class="sub" value="Subscribe" id="mail">
+            </form>
+        </section>
+    </footer>
+    <script src="./cart.js"></script>
+</body>
+</html>

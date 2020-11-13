@@ -1,0 +1,57 @@
+.product{
+    grid-area: content;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 15vh;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.content-page{
+    height: 100vh;
+}
+
+.product img{
+    height: 82vh;
+    width: 80%;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+.product-information{
+    height: 70vh;
+    width: 80%;
+    padding: 0 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.product-information form{
+    display: flex;
+    justify-content: center;
+}
+
+.cart-button{
+    padding: 25px;
+    width: 15vw;
+    border:0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+}
+
+#plus-counter, #minus-counter, td button {
+    font-size: medium;
+    padding: 7px;
+    margin: 0 .75em;
+    background-color: #FF6600;
+    color: white;
+    border:0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+}
+
+.counter{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}

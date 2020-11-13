@@ -1,0 +1,49 @@
+.categories{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.vendor-page{
+    height: 100vh;
+}
+
+#main-content{
+    grid-area: content;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    padding-top: 10vh;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+}
+
+.type-item li, .brands li{
+    margin-bottom: 2em;
+    list-style: none;
+}
+
+article img{
+    min-width: 17vw;
+    max-height: 30vh;
+}
+
+.item-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.add-to-cart{
+    padding: 0.5em;
+}
+
+.item-list{
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 12px;
+}
+
+/* table article{
+    border: 2px solid red;
+} */

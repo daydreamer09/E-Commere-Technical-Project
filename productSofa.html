@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Morden Chair</title>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Resources/styles.css">
+    <link rel="stylesheet" href="./Resources/product.css">
+</head>
+<body>
+    <section id="home-page" class="content-page">
+        <nav>
+            <a href="index.html"><h2>Furniture <br> Shop <div id="shape"></div></h2></a>
+            <ul>
+                <li> <a href="index.html">HOME</a> </li>
+                <li> <a href="product.html">PRODUCT</a> </li>
+                <li> <a href="checkout.html">CART</a> </li>
+                <li>  <a href="signup.html">SIGNUP</a> </li>
+            </ul>
+        </nav>
+        <section class="product">
+            <img src="./Resources/images/sofa.jpg" alt="sofa" class="picture">
+            <aside class="product-information">
+                <div>
+                    <h3><span> &#8358 250,000</span></h3>
+                    <h2>Sofa</h2>
+                </div>
+                
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Tenetur dolore vero mollitia. Suscipit facere aliquam facilis
+                    cupiditate deleniti provident maiores minima non quos iusto totam esse, 
+                    amet, alias corrupti dolores.
+                </p>
+                <div class="counter">
+                    <button id="plus-counter"> + </button> <p id="count"> 1 </p> <button id="minus-counter"> - </button>
+                </div>
+                <form action="#">
+                    <a href="checkout.html"><input type="button" class="cart-button" value="Add to Cart" id="sofa-cart"></a>
+                </form>
+            </aside>
+        </section>
+    </section>
+    <footer>
+        <article class="discount">
+            <H2>Subscribe for a <span>25% Discount</span> </H2>
+            <p>Nulla ac convallis lorem, eget euismod nisl.
+               Donec in libero sit amet mi vulputate consectetur.
+               Donec auctor interdum purus, ac finibus massa bibendum nec.</p>
+        </article>
+        <section class="subscribe">
+            <form action="#">
+                <input type="email" class="sub" name="mail" id="box" placeholder="Your E-mail">
+                <input type="button" class="sub" value="Subscribe" id="mail">
+            </form>
+        </section>
+    </footer>
+    <script src="./cart.js"></script>
+    <script src="productSofa.js"></script>
+</body>
+</html>
